@@ -1,4 +1,4 @@
-#Practica-1-INF-121
-#YURISA ESPERANZA FLORES QUISPE
-#CI: 9113249
-RU:1865602
+# Práctica 1 – INF-121  
+**Yurisa Esperanza Flores Quispe**  
+**CI:** 9113249  
+**RU:** 1865602
