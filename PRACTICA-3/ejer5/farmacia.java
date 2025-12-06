@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class Farmacia {
     private String nombreFarmacia;
-    private String sucursal; // antes era int
+    private String sucursal; 
     private String direccion;
     private int nroMedicamentos;
     private Medicamento m[] = new Medicamento[100];
@@ -26,11 +26,11 @@ public class Farmacia {
             System.out.print("Cantidad de medicamentos: ");
             if(sc.hasNextInt()) {
                 nroMedicamentos = sc.nextInt();
-                sc.nextLine(); // limpiar buffer
+                sc.nextLine(); 
                 valido = true;
             } else {
                 System.out.println("Error: debe ingresar un número entero.");
-                sc.nextLine(); // limpiar buffer incorrecto
+                sc.nextLine(); 
             }
         }
 
@@ -77,7 +77,6 @@ public class Farmacia {
                 m[i] = null;
             }
         }
-        // Reorganizar arreglo eliminando nulls
         Medicamento[] temp = new Medicamento[100];
         int j=0;
         for(int i=0;i<nroMedicamentos;i++){
